@@ -21,12 +21,12 @@
       {{ form.footer }}
       {{ form.actions }}
     </div>
-  </div>
-  <div class="ucb-editor-toggle">
-    <a href="#" id="ucb-editor-toggle">
-      <span class="hidden">TOGGLE</span>
-      <i class="ucb-fa-toggle fa fa-2x fa-toggle-off" aria-hidden="true"></i> Sidebar
-    </a>
+    <div class="ucb-editor-toggle">
+      <a href="#" id="ucb-editor-toggle">
+        <span class="hidden">TOGGLE</span>
+        <i class="ucb-fa-toggle fa fa-2x fa-toggle-off" aria-hidden="true"></i> <span class="ucb-sidebar-toggle-label">Sidebar</span>
+      </a>
+    </div>
   </div>
   <div class="layout-region layout-region-node-main">
     {{ form|without('advanced', 'footer', 'actions') }}
