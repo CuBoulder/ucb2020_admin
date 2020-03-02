@@ -1,3 +1,7 @@
+.content-header {
+  background-color: #cfb87b69;
+}
+
 a#ucb-editor-toggle {
   text-decoration: none;
   display: flex;
