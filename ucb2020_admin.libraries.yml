@@ -1,0 +1,11 @@
+global:
+  version: 1.x
+  css:
+    layout:
+      css/layout.css: {}
+    theme:
+      css/style.css: {}
+      css/fontawesome/fontawesome.min.css: {}
+      css/fontawesome/solid.min.css: {}
+  js:
+    js/main.js: {}

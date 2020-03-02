@@ -1,0 +1,21 @@
+name: 'CU Boulder D8 Admin Theme Extension'
+type: theme
+base theme: claro
+description: 'Small, custom tweaks to the Claro theme for Drupal administration'
+version: 1.x
+core: 8.x
+libraries:
+  - ucb2020_admin/global
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
