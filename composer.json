@@ -1,0 +1,6 @@
+{
+    "name": "cu-boulder/ucb2020_admin",
+    "description": "Drupal 8 admin theme for CU Boulder",
+    "license": "MIT",
+    "type": "drupal-theme"
+}
