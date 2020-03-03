@@ -1,4 +1,5 @@
-.content-header {
+.content-header,
+.panel__title {
   background-color: #cfb87b69;
 }
 
@@ -8,9 +9,34 @@ a#ucb-editor-toggle {
   flex-direction: row;
   align-items: center;
   font-size: 1rem;
-  padding-top: 0.5em;
 }
 
+.button {
+  padding: 0.5rem 0.75rem;
+}
+
+.action-link {
+  padding: 0.5rem 0.75rem;
+}
+
+.form-actions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.form-element {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  line-height: 1.25rem;
+  min-height: 2rem;
+}
+
+@media screen and (min-width: 48em) {
+  .is-horizontal .tabs__link:hover {
+    color: #222;
+    background: #cfb87b;
+  }
+}
 
 .layout-region-node-footer {
   display: flex;
