@@ -121,3 +121,9 @@ button.dropbutton__toggle {
   margin-left: 1rem;
 }
 
+.dropbutton-multiple.open .dropbutton .secondary-action {
+  background: white;
+  display: block;
+  padding: 0.25rem
+}
+
