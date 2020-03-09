@@ -1,6 +1,5 @@
-.content-header,
-.panel__title {
-  background-color: #cfb87b69;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 a#ucb-editor-toggle {
@@ -11,8 +10,16 @@ a#ucb-editor-toggle {
   font-size: 1rem;
 }
 
+.toolbar-menu a {
+  color: #565656;
+}
+
 .button {
   padding: 0.5rem 0.75rem;
+}
+
+a.button--primary {
+  color: white;
 }
 
 .action-link {
@@ -102,5 +109,15 @@ div#edit-actions {
   .vertical-tabs__items--processed {
     margin-left: 15em; /* LTR */
   }
+}
+
+button.dropbutton__toggle::before {
+  font-family: 'Font Awesome 5 Pro', serif;
+  content: "\f0d7";
+  color: #0277bd;
+}
+
+button.dropbutton__toggle {
+  margin-left: 1rem;
 }
 

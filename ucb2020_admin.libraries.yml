@@ -4,8 +4,10 @@ global:
     layout:
       css/layout.css: {}
     theme:
+      css/UCB/colors.css: {}
       css/style.css: {}
       css/fontawesome/fontawesome.min.css: {}
       css/fontawesome/solid.min.css: {}
+      //fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700: {type: external}
   js:
     js/main.js: {}
